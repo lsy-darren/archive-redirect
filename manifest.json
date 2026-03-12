@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Archive This Page",
+  "version": "1.0",
+  "description": "Click the icon to view the current page on archive.ph",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Archive this page"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
